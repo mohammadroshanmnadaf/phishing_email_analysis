@@ -24,6 +24,6 @@ Identify phishing characteristics in a suspicious email sample using provided hi
    - Created a table of indicators (spoofing, header discrepancies, mismatched URLs, urgency, branding misuse).  
 7. **Organize and document**  
    - Saved raw email sample and analysis report in structured folders.  
-   - Added screenshots and tool links for reference.  
+    
    
 

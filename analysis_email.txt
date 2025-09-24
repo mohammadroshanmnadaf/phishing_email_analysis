@@ -1,0 +1,38 @@
+1.Sender’s Email Address (Spoofing Check)
+  Displayed sender: it-support@mastercard.com
+  Potential issue: Attackers can spoof a trusted display name or use similar-looking domains (mastercard-secure.com, mastercard.com).
+
+2.Header Analysis
+  Used mxtoolbox email analyzer.
+  Email Subject: Action Required: Important Security Update for Your Mastercard Account  
+  Received Delay: 0 seconds  
+  
+  Headers Found
+  Header Name	Header Value
+  From	        it-support@mastercard.com
+  To	        employee@email.com
+  Subject	    Action Required: Important Security Update for Your Mastercard Account
+  SPF/DKIM/DMARC status not confirmed: The analyzer suggests setting up DMARC, which means this message may not have passed DMARC checks.
+
+3.Suspicious Links or Attachments:
+  Text link: “👉 Reset your Mastercard Password”
+  Hover preview: Could point to a non-Mastercard domain ,which is a classic phishing technique.
+
+4.Urgent or Threatening Language
+  "Your account access will be temporarily suspended if you do not complete this update by the end of the business day".
+  This wil create a panic and force to take quick actions without verifying.
+
+5.Branding Misuse / Social Engineering:
+  Uses official Mastercard branding, IT policy references (“ISO 27001, GDPR”) to look legitimate.
+  Legitimate companies rarely ask for password resets via external links.
+
+Summary of Phishing Traits 
+     Trait             |   Details                                                |
+ --------------------- | -------------------------------------------------------- |
+ Spoofed Sender        | Possible fake domain                                     |
+ Header Discrepancies  | Non-Mastercard IPs or failed SPF/DKIM/DMARC              |
+ Mismatched URLs       | Link text vs  actual URL differ                          |
+ Urgent Language       | Threat of suspension by end of business day              |
+ Subtle Grammar Issues | Slightly unnatural phrasing                              |
+ Branding Misuse       | References to ISO/GDPR and Mastercard logo to gain trust |
+ Social Engineering    | Pressure to act immediately                              |

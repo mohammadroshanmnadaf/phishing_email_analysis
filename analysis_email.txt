@@ -12,7 +12,7 @@
   From	        it-support@mastercard.com
   To	        employee@email.com
   Subject	    Action Required: Important Security Update for Your Mastercard Account
-  SPF/DKIM/DMARC status not confirmed: The analyzer suggests setting up DMARC, which means this message may not have passed DMARC checks.
+  SPF/DKIM/DMARC status not confirmed:The header analyzer indicated that SPF and DKIM may not have been properly configured or validated for this email and           DMARC status is not confirmed. The analyzer suggested setting up DMARC, which means this message may have failed DMARC authentication.
 
 3.Suspicious Links or Attachments:
   Text link: “👉 Reset your Mastercard Password”
@@ -36,3 +36,4 @@ Summary of Phishing Traits
  Subtle Grammar Issues | Slightly unnatural phrasing                              |
  Branding Misuse       | References to ISO/GDPR and Mastercard logo to gain trust |
  Social Engineering    | Pressure to act immediately                              |
+
